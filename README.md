@@ -1,11 +1,11 @@
 # Rekomendasi film menggunakan metode Doument Similarity
-##menggunakan dataset yang bersumber pada : 
+## Menggunakan dataset yang bersumber pada : 
 https://www.kaggle.com/datasets/muqarrishzaib/tmdb-10000-movies-dataset
 
-Netflix Film Recommended System
+## Netflix Film Recommended System
 Sistem ini membangun sebuah sistem rekomendasi film berbasis similarity/kesamaan dokumen (content-based) menggunakan data film dari TMDB (The Movie Database) dan Natural Language Processing (NLP). Sistem ini dapat merekomendasikan film yang mirip berdasarkan deskripsi/overview film.
 
-Fitur Utama
+### Fitur Utama
 Pra-pemrosesan Teks: Membersihkan dan menormalisasi overview film.
 Ekstraksi Fitur: Menggunakan TF-IDF untuk mengubah teks menjadi representasi numerik.
 Penghitungan Similarity: Menghitung kemiripan antar film dengan Cosine Similarity.
